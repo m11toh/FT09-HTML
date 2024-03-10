@@ -12,12 +12,17 @@ body{
 
 .container{
     padding: 0 40px;
+    width: 100%;
 }
 
+.homesection{
+    display: flex;
+
+}
 .row{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: center
 }
 
 .home-text h1{
@@ -29,6 +34,33 @@ body{
     padding: 20px;
     color: whitesmoke;
 }
-.img{
-    border: 50%;
-} 
+.home-img 
+.img-holder{
+    border-radius: 50%;
+    box-shadow: burlywood;
+    
+}
+
+.home-text,
+.home-img{
+    width: 50%;
+    padding: 25px;
+}
+
+.about{
+    text-align: center;
+    color: whitesmoke;
+    padding: 40PX;
+}
+
+.about h2{
+    font-family: fantasy;
+    font-size: 50px;
+    padding: 15px;
+    
+}
+
+.about p{
+    padding: 10px;
+    font-style: oblique;
+}
