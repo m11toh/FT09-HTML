@@ -30,15 +30,17 @@ body{
     font-size: 60px;
 }
 
+
 .home-text{
     padding: 20px;
     color: whitesmoke;
 }
-.home-img 
-.img-holder{
+
+.home-img #img{
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
-    box-shadow: burlywood;
-    
+
 }
 
 .home-text,
@@ -63,4 +65,40 @@ body{
 .about p{
     padding: 10px;
     font-style: oblique;
+}
+
+.skills{
+    color: whitesmoke;
+    padding: 15px;
+
+}
+
+.skills ol{
+    padding: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.Projects{
+    padding: 20px;
+    display: flex;
+    align-content: center;
+}
+
+.hed{
+    color: whitesmoke;
+    text-align: center;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: wheat;
+    padding: 20px;
+}
+
+.form{
+    color: whitesmoke;
+    padding: 20px;
 }
